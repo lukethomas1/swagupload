@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C1067C93E6819445322D43C /* libPods-SwaguploadTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF476ACADA15D64B7B74E86D /* libPods-SwaguploadTests.a */; };
+		6D4B7AC8DB4FEDD66235CAE6 /* libPods-Swagupload.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE58C9899A844C6858B74EB7 /* libPods-Swagupload.a */; };
+		F6094D0E1C5DA2E400D8F75F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6094D0D1C5DA2E400D8F75F /* main.m */; };
+		F6094D111C5DA2E400D8F75F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6094D101C5DA2E400D8F75F /* AppDelegate.m */; };
+		F6094D141C5DA2E400D8F75F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6094D131C5DA2E400D8F75F /* ViewController.m */; };
+		F6094D171C5DA2E400D8F75F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6094D151C5DA2E400D8F75F /* Main.storyboard */; };
+		F6094D191C5DA2E400D8F75F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6094D181C5DA2E400D8F75F /* Images.xcassets */; };
+		F6094D1C1C5DA2E400D8F75F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6094D1A1C5DA2E400D8F75F /* LaunchScreen.xib */; };
+		F6094D281C5DA2E400D8F75F /* SwaguploadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6094D271C5DA2E400D8F75F /* SwaguploadTests.m */; };
+		F6FCA7AA1D82B0E900F38950 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F6FCA7A91D82B0E900F38950 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6094D221C5DA2E400D8F75F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6094D001C5DA2E400D8F75F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6094D071C5DA2E400D8F75F;
+			remoteInfo = Swagupload;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13EDE62C4B1304989E40328A /* Pods-SwaguploadTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwaguploadTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwaguploadTests/Pods-SwaguploadTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2B9BDE1353FED7510080D06E /* Pods-Swagupload.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swagupload.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swagupload/Pods-Swagupload.debug.xcconfig"; sourceTree = "<group>"; };
+		5EAF392A03D1F47CC49AA9A7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		6301982B369179796D48FDCA /* Pods-SwaguploadTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwaguploadTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwaguploadTests/Pods-SwaguploadTests.release.xcconfig"; sourceTree = "<group>"; };
+		700F439A7CA94B97EC95992B /* Pods-Swagupload.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swagupload.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swagupload/Pods-Swagupload.release.xcconfig"; sourceTree = "<group>"; };
+		80161590068F5076A1B6B2A5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		CE58C9899A844C6858B74EB7 /* libPods-Swagupload.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Swagupload.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF476ACADA15D64B7B74E86D /* libPods-SwaguploadTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwaguploadTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6094D081C5DA2E400D8F75F /* Swagupload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swagupload.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6094D0C1C5DA2E400D8F75F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6094D0D1C5DA2E400D8F75F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F6094D0F1C5DA2E400D8F75F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F6094D101C5DA2E400D8F75F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F6094D121C5DA2E400D8F75F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F6094D131C5DA2E400D8F75F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F6094D161C5DA2E400D8F75F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6094D181C5DA2E400D8F75F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F6094D1B1C5DA2E400D8F75F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F6094D211C5DA2E400D8F75F /* SwaguploadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwaguploadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6094D261C5DA2E400D8F75F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6094D271C5DA2E400D8F75F /* SwaguploadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwaguploadTests.m; sourceTree = "<group>"; };
+		F6FCA7A91D82B0E900F38950 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6094D051C5DA2E400D8F75F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D4B7AC8DB4FEDD66235CAE6 /* libPods-Swagupload.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6094D1E1C5DA2E400D8F75F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C1067C93E6819445322D43C /* libPods-SwaguploadTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57FBB546A61AB6149ED9085F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				80161590068F5076A1B6B2A5 /* Pods.debug.xcconfig */,
+				5EAF392A03D1F47CC49AA9A7 /* Pods.release.xcconfig */,
+				2B9BDE1353FED7510080D06E /* Pods-Swagupload.debug.xcconfig */,
+				700F439A7CA94B97EC95992B /* Pods-Swagupload.release.xcconfig */,
+				13EDE62C4B1304989E40328A /* Pods-SwaguploadTests.debug.xcconfig */,
+				6301982B369179796D48FDCA /* Pods-SwaguploadTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EAE6F589903C0F4C56365C4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE58C9899A844C6858B74EB7 /* libPods-Swagupload.a */,
+				DF476ACADA15D64B7B74E86D /* libPods-SwaguploadTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6094CFF1C5DA2E400D8F75F = {
+			isa = PBXGroup;
+			children = (
+				F6094D0A1C5DA2E400D8F75F /* Swagupload */,
+				F6094D241C5DA2E400D8F75F /* SwaguploadTests */,
+				F6094D091C5DA2E400D8F75F /* Products */,
+				57FBB546A61AB6149ED9085F /* Pods */,
+				EAE6F589903C0F4C56365C4D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F6094D091C5DA2E400D8F75F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6094D081C5DA2E400D8F75F /* Swagupload.app */,
+				F6094D211C5DA2E400D8F75F /* SwaguploadTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6094D0A1C5DA2E400D8F75F /* Swagupload */ = {
+			isa = PBXGroup;
+			children = (
+				F6094D0F1C5DA2E400D8F75F /* AppDelegate.h */,
+				F6094D101C5DA2E400D8F75F /* AppDelegate.m */,
+				F6094D121C5DA2E400D8F75F /* ViewController.h */,
+				F6094D131C5DA2E400D8F75F /* ViewController.m */,
+				F6094D151C5DA2E400D8F75F /* Main.storyboard */,
+				F6FCA7A91D82B0E900F38950 /* GoogleService-Info.plist */,
+				F6094D181C5DA2E400D8F75F /* Images.xcassets */,
+				F6094D1A1C5DA2E400D8F75F /* LaunchScreen.xib */,
+				F6094D0B1C5DA2E400D8F75F /* Supporting Files */,
+			);
+			path = Swagupload;
+			sourceTree = "<group>";
+		};
+		F6094D0B1C5DA2E400D8F75F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6094D0C1C5DA2E400D8F75F /* Info.plist */,
+				F6094D0D1C5DA2E400D8F75F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F6094D241C5DA2E400D8F75F /* SwaguploadTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6094D271C5DA2E400D8F75F /* SwaguploadTests.m */,
+				F6094D251C5DA2E400D8F75F /* Supporting Files */,
+			);
+			path = SwaguploadTests;
+			sourceTree = "<group>";
+		};
+		F6094D251C5DA2E400D8F75F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6094D261C5DA2E400D8F75F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6094D071C5DA2E400D8F75F /* Swagupload */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6094D2B1C5DA2E400D8F75F /* Build configuration list for PBXNativeTarget "Swagupload" */;
+			buildPhases = (
+				A873274B8FEFB13BB3D00C8F /* [CP] Check Pods Manifest.lock */,
+				F6094D041C5DA2E400D8F75F /* Sources */,
+				F6094D051C5DA2E400D8F75F /* Frameworks */,
+				F6094D061C5DA2E400D8F75F /* Resources */,
+				3F51A14F27744B8486570A78 /* [CP] Embed Pods Frameworks */,
+				D1D9145889883C885804D846 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Swagupload;
+			productName = Swagupload;
+			productReference = F6094D081C5DA2E400D8F75F /* Swagupload.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6094D201C5DA2E400D8F75F /* SwaguploadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6094D2E1C5DA2E400D8F75F /* Build configuration list for PBXNativeTarget "SwaguploadTests" */;
+			buildPhases = (
+				966D0F16F45F1FE4CEFEE938 /* [CP] Check Pods Manifest.lock */,
+				F6094D1D1C5DA2E400D8F75F /* Sources */,
+				F6094D1E1C5DA2E400D8F75F /* Frameworks */,
+				F6094D1F1C5DA2E400D8F75F /* Resources */,
+				F1D978D3C48A823E96C33DDD /* [CP] Embed Pods Frameworks */,
+				4E5B7F1FEAE1D960CFEB2DFC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6094D231C5DA2E400D8F75F /* PBXTargetDependency */,
+			);
+			name = SwaguploadTests;
+			productName = SwaguploadTests;
+			productReference = F6094D211C5DA2E400D8F75F /* SwaguploadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6094D001C5DA2E400D8F75F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Eric Zhang";
+				TargetAttributes = {
+					F6094D071C5DA2E400D8F75F = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = MGF29VX9H8;
+					};
+					F6094D201C5DA2E400D8F75F = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = F6094D071C5DA2E400D8F75F;
+					};
+				};
+			};
+			buildConfigurationList = F6094D031C5DA2E400D8F75F /* Build configuration list for PBXProject "Swagupload" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6094CFF1C5DA2E400D8F75F;
+			productRefGroup = F6094D091C5DA2E400D8F75F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6094D071C5DA2E400D8F75F /* Swagupload */,
+				F6094D201C5DA2E400D8F75F /* SwaguploadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6094D061C5DA2E400D8F75F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6094D171C5DA2E400D8F75F /* Main.storyboard in Resources */,
+				F6094D1C1C5DA2E400D8F75F /* LaunchScreen.xib in Resources */,
+				F6094D191C5DA2E400D8F75F /* Images.xcassets in Resources */,
+				F6FCA7AA1D82B0E900F38950 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6094D1F1C5DA2E400D8F75F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F51A14F27744B8486570A78 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swagupload/Pods-Swagupload-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E5B7F1FEAE1D960CFEB2DFC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwaguploadTests/Pods-SwaguploadTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		966D0F16F45F1FE4CEFEE938 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A873274B8FEFB13BB3D00C8F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D1D9145889883C885804D846 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swagupload/Pods-Swagupload-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1D978D3C48A823E96C33DDD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwaguploadTests/Pods-SwaguploadTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6094D041C5DA2E400D8F75F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6094D141C5DA2E400D8F75F /* ViewController.m in Sources */,
+				F6094D111C5DA2E400D8F75F /* AppDelegate.m in Sources */,
+				F6094D0E1C5DA2E400D8F75F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6094D1D1C5DA2E400D8F75F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6094D281C5DA2E400D8F75F /* SwaguploadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6094D231C5DA2E400D8F75F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6094D071C5DA2E400D8F75F /* Swagupload */;
+			targetProxy = F6094D221C5DA2E400D8F75F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6094D151C5DA2E400D8F75F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6094D161C5DA2E400D8F75F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6094D1A1C5DA2E400D8F75F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6094D1B1C5DA2E400D8F75F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6094D291C5DA2E400D8F75F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F6094D2A1C5DA2E400D8F75F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6094D2C1C5DA2E400D8F75F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B9BDE1353FED7510080D06E /* Pods-Swagupload.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Swagupload/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		F6094D2D1C5DA2E400D8F75F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 700F439A7CA94B97EC95992B /* Pods-Swagupload.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Swagupload/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		F6094D2F1C5DA2E400D8F75F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13EDE62C4B1304989E40328A /* Pods-SwaguploadTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwaguploadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swagupload.app/Swagupload";
+			};
+			name = Debug;
+		};
+		F6094D301C5DA2E400D8F75F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6301982B369179796D48FDCA /* Pods-SwaguploadTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwaguploadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swagupload.app/Swagupload";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6094D031C5DA2E400D8F75F /* Build configuration list for PBXProject "Swagupload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6094D291C5DA2E400D8F75F /* Debug */,
+				F6094D2A1C5DA2E400D8F75F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6094D2B1C5DA2E400D8F75F /* Build configuration list for PBXNativeTarget "Swagupload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6094D2C1C5DA2E400D8F75F /* Debug */,
+				F6094D2D1C5DA2E400D8F75F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6094D2E1C5DA2E400D8F75F /* Build configuration list for PBXNativeTarget "SwaguploadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6094D2F1C5DA2E400D8F75F /* Debug */,
+				F6094D301C5DA2E400D8F75F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6094D001C5DA2E400D8F75F /* Project object */;
+}
