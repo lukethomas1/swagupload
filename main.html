@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Photo Link</title>
+
+	<!-- Link Bootstrap Superhero Theme -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/superhero/bootstrap.min.css" rel="stylesheet" integrity="sha256-AbCXzDgd7Vj/2JrsXgjrLdYZ92AgN262cXvQr4tAQa4= sha512-cA2CLCEXBR7hnXGgSNa+TaQ7WT2zW1IVm6uCLcu3ebHNhy+VIudw9kwgHlcL57wCiiXLZ1x7yT5Mv3QkDO2XZA==" crossorigin="anonymous">
+
+	<!-- Link Local Css to Override Bootstrap when necessary -->
+	<link rel="stylesheet" type="text/css" href="overridebootstrap.css">
+
+	<!-- Link Bootstrap JS -->
+	<!-- <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> -->
+
+    <!-- Jquery -->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+
+    <!-- Javascript -->
+	<script type="text/javascript" src="main.js"></script>
+
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/3.3.2/firebase.js"></script>
+
+</head>
+<body>
+	<div class = "container top-spacing">
+
+		<div class = "header centered">
+			<h1 class = "header">Swag Load</h1>
+		</div>
+
+		<div class="centered">
+			<div class="col-lg-4 col-md-4 col-sm-3"></div>
+			<div class="col-lg-4 col-md-4 col-sm-6 top-spacing">
+				<form id="code-submit" autocomplete="off" class="form-inline">
+				  <div class="form-group">
+				    <input type="text" id="code-value" class="form-control" id="exampleInputName2" placeholder="Secret Code">
+				  </div>
+				  <button id="btn-submit" type="button" class="btn btn-default">Submit</button>
+				</form>
+			</div>
+
+            <div class="col-lg-4 col-md-4 col-sm-3"></div>
+        </div>
+    </div>
+    <p id="error">Invalid Code.</p>
+</body>
+</html>
